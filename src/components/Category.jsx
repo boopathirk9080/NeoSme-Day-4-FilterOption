@@ -40,6 +40,7 @@ function Category() {
                 <div className='text-center mb-5'>
                     <h1 className='text-2xl font-medium'>Filter Option with Category Wise</h1>
                 </div>
+                
 
                 <ul className='mb-4 flex flex-wrap items-center font-semibold text-[#0c1e1d] justify-center'>
                     <button
