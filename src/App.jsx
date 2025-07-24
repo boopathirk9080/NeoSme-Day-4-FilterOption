@@ -9,13 +9,13 @@ function App() {
   return (
     <div>
       <BrowserRouter>
+
         <NavBar />
+        
         <Routes>
           <Route path="/" element={<Category />} />
           <Route path="/details/:id" element={<ProductDetails />} />
           <Route path="/cart" element={<Cart />} />
-          {/* <Category  /> */}
-
         </Routes>
 
       </BrowserRouter>

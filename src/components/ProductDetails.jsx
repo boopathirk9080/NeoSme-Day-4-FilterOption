@@ -116,6 +116,7 @@ function ProductDetails() {
                                         fill="none"
                                         viewBox="0 0 24 24"
                                     >
+
                                         <path
                                             stroke="currentColor"
                                             strokeLinecap="round"

@@ -11,9 +11,10 @@ function NavBar() {
                     </div>
                     <div className="space-x-4">
                         <Link to="/" className="text-white hover:text-gray-300">Home</Link>
-                        <Link to="/cart" className="text-white hover:text-gray-300">Cart</Link>                        
+                        <Link to="/cart" className="text-white hover:text-gray-300">Cart</Link>
                     </div>
                 </div>
+
             </nav>
         </div>
     )
