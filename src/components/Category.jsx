@@ -74,13 +74,13 @@ function Category() {
                                     </h3>
                                     <p className="text-lg font-bold text-blue-600 mt-2">${products.price}</p>
                                 </div>
-                                <div className="flex gap-2 mt-4">
+                                {/* <div className="flex gap-2 mt-4">
                                     <button
                                         className="flex-1 flex items-center justify-center py-2 px-3 text-xs font-medium text-gray-900 bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-colors duration-200"
                                         onClick={(e) => {
                                             e.preventDefault();
                                             e.stopPropagation();
-                                            alert("Added to favorites");
+                                            alert(" Added to favorites");
                                         }}
                                     >
                                         <svg
@@ -126,7 +126,7 @@ function Category() {
                                         </svg>
                                         Add to cart
                                     </button>
-                                </div>
+                                </div> */}
                             </div>
                         </Link>
                     ))}
